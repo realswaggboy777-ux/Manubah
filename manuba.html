@@ -1,0 +1,227 @@
+<!DOCTYPE html >
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport"
+         content="width=device-width, initial-scale=1.0">
+</html>
+<head>
+    <title>my first web page</title>
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+       <h1>Northwest university portal</h1>
+       
+       
+       <nav>
+           <a href="#about">About</a>  /
+           <a href="#courses">Courses</a> /
+           <a href="#gallery">Gallery</a> /
+           <a href="#media">Media</a> /
+           <a href="#register">Register</a>
+       </nav>
+       
+       <hr>
+    </header>
+    <!-- About Section -->
+    <section id="about">
+        <h2>About the Portal</h2>
+        
+        <p>
+            Welcome to Student Information Portal. The portal provides information about courses, students, and registration.
+        </p>
+        
+        <p>
+            HTML5 supports
+            <strong>semantic structure</strong>,<em>multimedia integration</em> ,and interactive forms
+        </p>
+        
+    </section>
+    
+    <!-- List Section -->
+    <section id="courses">
+        
+        <h2>Available Courses</h2>
+        
+        <ul>
+            <li>IFT 203 - web Technologies/</li>
+            <li>CYB 301 - Cryptography/</li>
+            <li>COS 201 - programing/</li>
+        </ul>
+        
+        <h3>Registration Step</h3>
+        <ol>
+            <li>Create an account</li>
+            <li>Login to the portal</li>
+            <li>Section courses</li>
+            <li>Submit registration</li>
+        </ol>
+        
+    </section>
+    <!-- Table Section -->
+    <section>
+        
+        <h2>Student Record</h2>
+        
+        <table border ="1">
+            
+            <tr>
+                <th>Matric No</th>
+                <th>Name</th>
+                <th>Department</th>
+            </tr>
+            
+            <tr>
+                <td>CSC001</td>
+                <td>Ibrahim Adam</td>
+                <td>Computer Science</td>
+            </tr>
+            
+            <tr>
+                <td>CSC002</td>
+                <td>Bashir Aliyu</td>
+                <td>Cyber Security</td>
+            </tr>
+            
+        </table>
+       
+    </section>
+    
+    <!-- Image Section-->
+    <section id="gallery">
+        
+        <h2>Campus Gallery</h2>
+        
+        <img src="campus.jpg"
+        alt="campus view"
+        wdth="400">
+        
+    </section>
+    
+    <!-- Multimedia Section -->
+    <section id="media">
+        
+        <h2>University Anthem</h2>
+        
+        <audio controls>
+            <source src="anthem"
+                    type="audio/mpeg">
+        </audio>
+        
+        <h2>University Introduction Video</h2>
+        
+        <video width="500" controls>
+            
+            <source src="intro.mp4"
+                    type="video/mp4">
+                    
+        </video>
+        
+    </section>
+    <!-- Hyperlink -->
+    <section>
+        
+        <h2>Useful Links</h2>
+        
+        <a href="https://www.w3.org">
+            W3C Official Website 
+        </a>
+        
+    </section>
+    <!-- Registration Forms -->
+    <section id="register">
+        
+        <h2>Student Registration</h2>
+        <form>
+            
+            <label>Full Name:</label>
+            <br>
+            
+            <Input type="text"
+                   required>
+                   
+                   
+            <br><br>
+                   
+                <label>Email:</label>
+                <br>
+                
+            <input type="email"
+                   required>
+            <br><br>
+            
+                <label>Phone Number:</label>
+                <br>
+                
+            <input type="phone number"
+                   required>
+            <br><br>
+            
+                <label>Password</label>
+                <br>
+                
+            <input type="password"
+                   required>
+            <br><br>
+            
+                <label>Department:</label>
+                <br>
+                
+                
+                <select>
+                    
+                    <option>
+                        Computer Science 
+                    </option>
+                    
+                    <option>
+                        Cyber Security 
+                    </option>
+                    
+                    <option>
+                        Information Technology
+                    </option>
+                    
+                </select>
+                
+                <br><br>
+                <label>Gender:</label>
+                
+                <input type="radio"
+                       name="gender">
+                       Male
+                <input type="radio">
+                       Female 
+                       
+                <br><br>
+                
+                <label>
+                    Accept Terms 
+                </label>
+                
+                <input type="checkbox"
+                
+                <br><br>
+                
+                <input type="submit"
+                       value="Register">
+                       
+                       
+        </form>
+        
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        
+        <hr>
+        
+        <p>
+            Copyright 2026
+            Northwest University Student Portal 
+        </p>
+        
+    </footer>
+</body>
+</html>
